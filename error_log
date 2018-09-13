@@ -1,0 +1,214 @@
+[30-Jul-2018 14:24:42 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/sankalp04/public_html/enam_1/application/controllers/Url_ctrl.php on line 85
+[30-Jul-2018 14:24:57 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/sankalp04/public_html/enam_1/application/controllers/Url_ctrl.php on line 85
+[30-Jul-2018 14:28:53 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/sankalp04/public_html/enam_1/application/controllers/Url_ctrl.php on line 85
+[30-Jul-2018 14:29:34 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/sankalp04/public_html/enam_1/application/controllers/Url_ctrl.php on line 85
+[06-Aug-2018 11:23:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 65
+[06-Aug-2018 11:24:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 65
+[06-Aug-2018 11:24:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 65
+[06-Aug-2018 11:24:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 65
+[06-Aug-2018 11:24:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 65
+[07-Aug-2018 04:37:27 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 04:37:27 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 04:53:27 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 04:53:27 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:07:10 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:07:15 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:07:21 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:07:23 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:07:23 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:07:31 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:07:32 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:16:23 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:16:27 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:16:27 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:17:49 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:17:53 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:17:53 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:18:08 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:18:08 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:18:13 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:18:13 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:19:56 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:19:56 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:22:12 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:22:19 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:22:19 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:23:18 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:23:18 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:23:44 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:23:48 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:23:48 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:24:13 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:24:19 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:24:24 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:24:31 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:24:34 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:24:42 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:24:49 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:24:49 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:25:08 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:25:15 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[07-Aug-2018 05:25:24 UTC] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/views/pages/comman/quickLinks.php on line 12
+[13-Aug-2018 11:53:38 UTC] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT), expecting ',' or ';' in /home/sankalp04/public_html/enam/application/views/pages/apmc/apmc_status.php on line 1
+[13-Aug-2018 12:57:26 UTC] PHP Fatal error:  Call to undefined method Dashboard_ctrl::time_elapsed_string() in /home/sankalp04/public_html/enam/application/controllers/Dashboard_ctrl.php on line 65
+[14-Aug-2018 07:35:34 UTC] PHP Parse error:  syntax error, unexpected '$ip' (T_VARIABLE) in /home/sankalp04/public_html/enam/application/hooks/Test_hook.php on line 15
+[31-Aug-2018 12:32:12 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:20 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:25 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:25 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:25 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:26 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:26 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:26 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:26 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:26 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:26 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:34 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:34 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:32:34 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:52:34 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:52:40 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:52:43 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:52:57 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:57:14 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:57:19 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:57:20 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:57:20 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:57:20 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:57:20 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[31-Aug-2018 12:57:20 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 252
+[01-Sep-2018 09:44:51 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[01-Sep-2018 09:44:51 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[01-Sep-2018 09:44:52 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[01-Sep-2018 09:44:52 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[01-Sep-2018 09:44:52 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[01-Sep-2018 09:44:53 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[01-Sep-2018 09:45:05 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[01-Sep-2018 09:45:05 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[01-Sep-2018 09:45:05 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[01-Sep-2018 06:01:48 UTC] PHP Fatal error:  Cannot redeclare Dashboard_ctrl::commodity() in /home/sankalp04/public_html/enam/application/controllers/Dashboard_ctrl.php on line 234
+[01-Sep-2018 06:09:57 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sankalp04/public_html/enam/application/controllers/Dashboard_ctrl.php on line 240
+[01-Sep-2018 11:45:56 Asia/Kolkata] PHP Fatal error:  Call to undefined function rint_r() in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 243
+[03-Sep-2018 10:17:16 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[03-Sep-2018 10:17:16 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[03-Sep-2018 10:17:27 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[03-Sep-2018 13:36:45 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 253
+[03-Sep-2018 13:36:48 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 253
+[04-Sep-2018 16:39:38 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[04-Sep-2018 16:44:37 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[04-Sep-2018 16:44:37 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[04-Sep-2018 16:44:37 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[04-Sep-2018 16:44:48 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[04-Sep-2018 16:44:50 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[04-Sep-2018 16:45:23 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[04-Sep-2018 16:45:23 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[04-Sep-2018 16:45:23 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[04-Sep-2018 16:45:43 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[04-Sep-2018 16:45:43 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[04-Sep-2018 17:41:56 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[04-Sep-2018 17:41:56 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[04-Sep-2018 17:41:56 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:51 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:51 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:51 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:52 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:52 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:53 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:54 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:54 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:55 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:55 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:55 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:55 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:56 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:56 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:56 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:57 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:06:57 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:01 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:01 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:03 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:03 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:03 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:03 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:03 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:05 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:06 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:06 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:06 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:07 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:08 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:08 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:08 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:08 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:09 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:09 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:09 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:11 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:12 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:12 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:12 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:12 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:13 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:14 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:07:16 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:19:51 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:19:51 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:19:51 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:19:51 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:25:15 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:25:15 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:25:15 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:25:17 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 12:25:19 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:04:01 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:04:02 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:04:02 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:04:24 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:04:24 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:04:24 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:04:40 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:04:45 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:04:47 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:05:43 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:05:43 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:05:43 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:05:57 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:05:57 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:05:58 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:06:01 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:10:13 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:10:13 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:10:14 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:10:14 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:10:16 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:10:16 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:10:17 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:10:18 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:10:20 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:10:20 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:11:08 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:11:08 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:11:14 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:11:44 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:12:35 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 16:12:35 Asia/Kolkata] PHP Fatal error:  Call to undefined function prinr_r() in /home/sankalp04/public_html/enam/application/models/Elearning_model.php on line 63
+[07-Sep-2018 13:36:22 UTC] PHP Parse error:  syntax error, unexpected '.', expecting ',' or ';' in /home/sankalp04/public_html/enam/application/controllers/admin/Lang_ctrl.php on line 7
+[08-Sep-2018 13:08:14 Asia/Kolkata] PHP Fatal error:  Call to a member function from() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Email_ctrl.php on line 60
+[08-Sep-2018 07:42:34 UTC] PHP Parse error:  syntax error, unexpected 'Your' (T_STRING) in /home/sankalp04/public_html/enam/application/controllers/Email_ctrl.php on line 60
+[08-Sep-2018 13:13:31 Asia/Kolkata] PHP Fatal error:  Call to a member function from() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Email_ctrl.php on line 60
+[08-Sep-2018 07:46:13 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting ')' in /home/sankalp04/public_html/enam/application/controllers/Email_ctrl.php on line 37
+[08-Sep-2018 16:38:22 Asia/Kolkata] PHP Fatal error:  Call to undefined method Story_model::slider_create() in /home/sankalp04/public_html/enam/application/controllers/admin/Story_ctrl.php on line 121
+[08-Sep-2018 16:38:47 Asia/Kolkata] PHP Fatal error:  Call to undefined method Story_model::slider_create() in /home/sankalp04/public_html/enam/application/controllers/admin/Story_ctrl.php on line 121
+[08-Sep-2018 16:48:00 Asia/Kolkata] PHP Fatal error:  Call to undefined method Story_model::slider_create() in /home/sankalp04/public_html/enam/application/controllers/admin/Story_ctrl.php on line 121
+[08-Sep-2018 11:23:23 UTC] PHP Parse error:  syntax error, unexpected '.', expecting ',' or ';' in /home/sankalp04/public_html/enam/application/controllers/admin/Lang_ctrl.php on line 7
+[09-Sep-2018 19:38:46 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[09-Sep-2018 19:38:46 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[09-Sep-2018 19:38:46 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[10-Sep-2018 05:37:49 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /home/sankalp04/public_html/enam/application/controllers/Email_ctrl.php on line 80
+[10-Sep-2018 12:49:31 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[10-Sep-2018 12:49:31 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[10-Sep-2018 13:55:28 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[10-Sep-2018 13:55:28 Asia/Kolkata] PHP Fatal error:  Call to undefined method Event_model::event_search_list() in /home/sankalp04/public_html/enam/application/controllers/Event_ctrl.php on line 57
+[11-Sep-2018 11:16:43 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 254
+[12-Sep-2018 10:00:53 Asia/Kolkata] PHP Fatal error:  Call to a member function image_path() on a non-object in /home/sankalp04/public_html/enam/application/controllers/Ajax_ctrl.php on line 254
