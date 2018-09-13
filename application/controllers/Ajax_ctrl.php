@@ -384,20 +384,12 @@ function get_mandi_count(){
 	function commodity_search(){
 		$data['string'] = $this->input->post('string');
 		$data['language'] = $this->session->userdata('client_language');
+		
 		$this->db->select('*');
-		$this->db->like('comm_name',$data['string'],'both');
-		$result = $this->db->get_Where('commodity_parameters',array('lang_id'=>$data['language'],'status'=>1))->result_array();
-	
-		$str = html_entity_decode($result[0]['comm_desc']);
-	
-	
-		$regex = "/\[(.*?)\]/";
-		$data['output'] = $str;
-		preg_match_all($regex, $str, $matches);
-		for($i =0; $i < count($matches[1]); $i++){
-			$result[0]['comm_desc'] = str_replace($matches[0][$i],$this->substring->image_path(),$result[0]['comm_desc']);
-		}
-	
+		$this->db->like('commodity_name',$data['string'],'both');
+		$this->db->group_by('commodity_id');
+		$result = $this->db->get_Where('commodity',array('status'=>1))->result_array();
+		
 		if(count($result)>0){
 			echo json_encode(array('data'=>$result,'status'=>200));
 		}
