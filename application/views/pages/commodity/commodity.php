@@ -15,7 +15,7 @@
 	<div class="pull-right">
 		<form class="pull-left"><input class="form-control" placeholder="Search commodity" id="commodity_search" type="text" /></form>
 <select style="margin-left:15px;width:180px;" class="form-control pull-right" id="commodity_pages" class="form-contrl">
-		<option value="-1">Select page</option>
+		<option value="0">Select page</option>
 		<?php if(isset($commodity_list) && (count($commodity_list)>0)){ 
 			for($i = 1;$i <= ceil($commodity_count[0]['total']/18); $i++){
 					$v = ($i-1) * 18;
