@@ -54,58 +54,55 @@ $(document).on('click','.play-img',function(){
 		window.location.replace(baseUrl+'elearning/'+cat);
 	});
 	
-	
 	$(document).on('keypress','#video_search_learing',function(event){
 		var keycode = (event.keyCode ? event.keyCode : event.which);
-    if(keycode == '13'){
-        $('#video_search_learing').trigger("blur");	
-    }
-	}); 
-	
-	$(document).on('blur','#video_search_learing',function(){
-		var cat = $('#elearing_cat_selector').val();
-		var text = $(this).val();
-		$.ajax({
-			type: 'POST',
-			url: baseUrl+'Elearning_ctrl/video_search_list',
-			dataType: "json",
-			data: {
-				'cat' : cat,
-				'text': text
-			},
-			beforeSend: function(){
-				$('#loader').modal('show');
-			},
-			complete: function(){},
-			success:function (response){
-				if(response.status == 200){
-					$('#loader').modal('toggle');
-					var x = '';
-					$.each(response.data,function(key,value){
-						var fields = value['v_url'].split('/embed/');
-						var street = fields[1];
-				x = x + '<div class="col-md-3">' +
-						'<div class="row elearn-v-box">' +
-							'<div class="col-md-12">'+
-								'<div class="thum">'+
-									'<div style="background:url(http://img.youtube.com/vi/'+ street +'/0.jpg) center no-repeat;cursor:pointer;height:172px;width:280px;background-size:cover;"></div>'+
-									'<img alt="" style="width:64px;" data-pid="'+ value['vid'] +'" class="play-img-gallery" src="'+baseUrl+'assest/images/new-theme/icon/play-ico.png"/>'+
+		if(keycode == '13'){
+			var cat = $('#elearing_cat_selector').val();
+			var text = $(this).val();
+			$.ajax({
+				type: 'POST',
+				url: baseUrl+'Elearning_ctrl/video_search_list',
+				dataType: "json",
+				data: {
+					'cat' : cat,
+					'text': text
+				},
+				beforeSend: function(){
+					$('#loader').modal('show');
+				},
+				complete: function(){},
+				success:function (response){
+					if(response.status == 200){
+						$('#loader').modal('toggle');
+						var x = '';
+						$.each(response.data,function(key,value){
+							var fields = value['v_url'].split('/embed/');
+							var street = fields[1];
+					x = x + '<div class="col-md-3">' +
+							'<div class="row elearn-v-box">' +
+								'<div class="col-md-12">'+
+									'<div class="thum">'+
+										'<div style="background:url(http://img.youtube.com/vi/'+ street +'/0.jpg) center no-repeat;cursor:pointer;height:172px;width:280px;background-size:cover;"></div>'+
+										'<a href="'+ baseUrl +'elearning/id/'+ value.video_id +'">'+
+											'<img alt="" style="width:64px;" data-pid="'+ value['vid'] +'" class="play-img-gallery" src="'+baseUrl+'assest/images/new-theme/icon/play-ico.png"/>'+
+										'</a>'+
+									'</div>'+
+								'</div>'+
+								'<div class="col-md-12 video-g-details">'+
+									'<h5><b>'+ value['v_title'] +'</b></h5>'+
+									'<p>1025 Views - '+value['created_at']+'</p>'+
 								'</div>'+
 							'</div>'+
-							'<div class="col-md-12 video-g-details">'+
-								'<h5><b>'+ value['v_title'] +'</b></h5>'+
-								'<p>1025 Views - '+value['created_at']+'</p>'+
-							'</div>'+
-						'</div>'+
-					'</div>';
-					});		
-					$('#video_lists').html(x);
+						'</div>';
+						});
+						$('#video_lists').html(x);
+					}
+					else{		
+						
+					}
 				}
-				else{		
-					
-				}
-			}
-		});
+			});
+		}
 	});
 	
 	$('#myCarousel').carousel({
