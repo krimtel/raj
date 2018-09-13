@@ -51,7 +51,7 @@ $cat = urldecode($cat);
 			$this->db->join('video v','v.v_id=vi.video_id');
 			$this->db->order_by('v.sort','ASC');
 			$this->db->like('vi.v_title',$data['text'],'after');
-			$result = $this->db->get_where('video_item vi',array('v.status'=>1,'v.category_id' => $category[0]['v_id'],'vi.lang_id'=>$l_id ,'vi.status'=>1))->result_array();
+			$result = $this->db->get_where('video_item vi',array('v.status'=>1,'v.category_id' => $category[0]['v_id'],'vi.lang_id'=>$l_id ,'vi.status'=>1,'v.status'=>1))->result_array();
 			return $result;
 		}
 		else{
@@ -59,7 +59,7 @@ $cat = urldecode($cat);
 			$this->db->join('video v','v.v_id=vi.video_id');
 			$this->db->order_by('v.sort','ASC');
 			$this->db->like('vi.v_title',$data['text'],'after');
-			$result = $this->db->get_where('video_item vi',array('v.status'=>1,'vi.lang_id'=>$l_id ,'vi.status'=>1))->result_array();
+			$result = $this->db->get_where('video_item vi',array('v.status'=>1,'vi.lang_id'=>$l_id ,'vi.status'=>1,'v.status'=>1))->result_array();
 //prinr_r($this->db->last_query()); die;
 			return $result;
 		}
