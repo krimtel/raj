@@ -299,7 +299,7 @@ function mandi_data_render(response){
     	}
     	
     	if(typeof(response.data) != "undefined" && response.data !== null) {
-    		var x = '<option value="0">Select State</option>';
+    		var x = '<option value="">Select State</option>';
     		$.each(response.data,function(key,value){
     			x = x + '<option value="' + value.state_id + '">'+ value.state_name +'</option>';
     		});
