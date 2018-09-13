@@ -23,7 +23,7 @@ class Stories_ctrl extends CI_Controller {
 	}
 	
 	public function index(){
-		$l_id = $this->session->userdata('language');
+		$l_id = $this->session->userdata('client_language');
 
 		$this->db->select('*');
 		$this->db->join('success_story_item ssi','ssi.	success_id = ss.s_id');
@@ -46,8 +46,13 @@ class Stories_ctrl extends CI_Controller {
 		
 		$data['header'] = $this->load->view('comman/header',$data,TRUE);
 		$data['menus'] = $this->Enam_model->all_menus();
-		
 		$data['navigation'] = $this->load->view('comman/navigation',$data,TRUE);
+		$data['links'] = $this->Enam_model->all_links();
+		$data['quickLinks'] = $this->load->view('pages/comman/quickLinks',$data,TRUE);
+		
+		$data['search_page'] = $this->load->view('comman/home_search',$data,TRUE);
+		$data['subscribe_page'] = $this->load->view('comman/home_subscribe',$data,TRUE);
+		
 		$data['footer'] = $this->load->view('comman/footer','',TRUE);
 		$data['home_body'] = $this->Widget_model->home_content();
 		$data['slider'] = $this->load->view('pages/comman/slider',$data,TRUE);
