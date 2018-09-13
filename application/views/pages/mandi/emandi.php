@@ -40,26 +40,31 @@ float:right !important;
 			<div class="row">			
 				<div class="col-md-2 emandi-select">
 					<select class="form-control" id="mandi_states">
-						<option value="0">Select State</option>
+						<option value="">Select State</option>
 					</select>
 				</div>
 				<div class="col-md-2 emandi-select">
 					<select class="form-control" id="mandi_district">
-						<option value="0">Select District</option>
+						<option value="">Select District</option>
 					</select>
 				</div>
 				<div class="col-md-2 emandi-select">
 					<select class="form-control"  id="mandi_mandi">
-						<option value="0">Select Mandis</option>
+						<option value="">Select Mandis</option>
 					</select>
 				</div>
-				<div class="col-md-2 emandi-select">
+				<!--  <div class="col-md-2 emandi-select">
 					<select class="form-control" id="mandi_commodity">
-						<option value="0">Select Commodity</option>
+						<option value="">Select Commodity</option>
 					</select>
-				</div>
+				</div> -->
+				
 				<div class="col-md-2 emandi-select">
-					<button class="btn btn-success">
+					<input type="text" class="form-control" id="co_name" name="co_name" placeholder="Enter Commodity Name">
+				</div>
+				
+				<div class="col-md-2 emandi-select">
+					<button class="btn btn-success" id="emandi_search">
 						Search
 					</button>
 		            <button class="btn " type="button" id="emandi_reset">
@@ -72,7 +77,7 @@ float:right !important;
 	<div class="row">
 		<div class="col-md-12">
 			<div class="pull-left" style="font-size:15px;"><b>Your Search Result as follows:</b></div>
-			<div class="pull-right"><b>Page:</b> <select class="mandi-pagi" class="form-control " id="mandi_page_count"><option value="0">0</option></select></div>
+			<div class="pull-right"><b>Page:</b> <select class="mandi-pagi" class="form-control " id="mandi_page_count"><option value="">Select</option></select></div>
 		</div>			
 		<div class="col-md-12 emandi-list mandi-table">
 			<table class="table table-striped table-bordered">
@@ -112,10 +117,79 @@ function set_data(){
 	
 }
 
+$('#co_name').keypress(function (e){
+	 if (event.which == 13) {
+	    var co_name = $('#co_name').val();
+		$.ajax({
+				type:"POST",
+				url:'<?php echo base_url();?>Mandi_ctrl/mandi_list',
+				dataType:'json',
+				data:{co_name:co_name},
+				beforeSend:function(){},
+				success:function(response){
+					if(response.status == 200){
+						mandi_data_render(response);
+						}else{
+							$('#mandi_list').html('<tr><td class="panel-group text-center" role="tab" id="headingOne" colspan="6"><b>record not match.</b></td></tr>');
+							}
+					},
+			});
+	 }
+});
+
+$(document).on('click','#emandi_reset',function(){
+	//$('#mandi_states').html('');
+	$('#mandi_states option').prop('selected', function() {
+        return this.defaultSelected;
+    });
+	$('#mandi_district').html('<option>Select state</option>');
+	$('#mandi_mandi').html('<option>Select state</option>');
+	var co_name = $("input#co_name");
+	co_name.val(co_name.data("original-value"));
+    
+	var mandi_states ='';
+	var mandi_district = '';
+	var mandi_mandi = '';
+	var mandi_commodity = '';
+	var page = 1;
+	var co_name = '';
+	
+	$.ajax({
+	    type: 'POST',
+	    url: baseUrl+'Mandi_ctrl/mandi_list',
+	    dataType: "json",
+	    data: {
+	    	'mandi_states' : mandi_states,
+	    	'mandi_district' : mandi_district,
+	    	'mandi_mandi' : mandi_mandi,
+	    	'mandi_commodity' : mandi_commodity,
+	    	'page' : page,
+	    	'co_name' : co_name
+	    },
+	    beforeSend: function(){
+                //$('#loader').modal({'show':true});
+             },
+	    complete: function(){},
+	    success:function (response) {
+	    	console.log(response);
+	    	if(response.status == 200){
+	    		mandi_data_render(response);	
+	    	}
+	    }
+	});
+});
+
+
+
+$(document).on('click','#emandi_search',function(){
+	mandi_data_ajax();
+});
+
+
 $(document).on('change','#mandi_states',function(){
-	$('#mandi_district').val(0);
-	$('#mandi_mandi').val(0);
-	$('#mandi_commodity').val(0);
+	$('#mandi_district').val();
+	$('#mandi_mandi').val();
+	$('#mandi_commodity').val();
 	console.log('trigger');
 	var id = $(this).val();
 	var mandi_district = $('#district_id_url').val();
@@ -131,14 +205,14 @@ $(document).on('change','#mandi_states',function(){
 	    success:function (response) {
 	    	console.log(response);
 	    	if(response.status == 200){
-	    		var x = '<option value="0">Select District</option>';
+	    		var x = '<option value="">Select District</option>';
 	    		$.each(response.data,function(key,value){
 	    			x = x + '<option value="' + value.district_id + '">'+ value.district_name +'</option>';
 	    		});
 	    		$('#mandi_district').html(x);
 				
 				if(typeof(district_id) != "undefined" && district_id !== null) {
-					$('#mandi_district').val(0);
+					$('#mandi_district').val();
 				}
 				else{
 					$('#mandi_district').val(mandi_district);
@@ -155,8 +229,8 @@ $(document).on('change','#mandi_states',function(){
 $(document).on('change','#mandi_district',function(){
 	var district_id = $("#mandi_district option:selected").text();
 	var state_id = $('#mandi_states').val();
-	$('#mandi_mandi').val(0);
-	$('#mandi_commodity').val(0);
+	$('#mandi_mandi').val();
+	$('#mandi_commodity').val();
 	$.ajax({
 	    type: 'POST',
 	    url: baseUrl+'Mandi_ctrl/manids/'+ district_id +'/'+ state_id,
@@ -167,7 +241,7 @@ $(document).on('change','#mandi_district',function(){
 	    success:function (response) {
 	    	console.log(response);
 	    	if(response.status == 200){
-	    		var x = '<option value="0">Select Mandis</option>';
+	    		var x = '<option value="">Select Mandis</option>';
 	    		$.each(response.data,function(key,value){
 	    			x = x + '<option value="' + value.mandi_id + '">'+ value.mandi_name +'</option>';
 	    		});
@@ -183,7 +257,7 @@ $(document).on('change','#mandi_district',function(){
 
 $(document).on('change','#mandi_mandi',function(){
 	var mandi_id = $(this).val();
-	$('#mandi_commodity').val(0);
+	$('#mandi_commodity').val();
 	$.ajax({
 	    type: 'GET',
 	    url: baseUrl+'Mandi_ctrl/commodity/'+ mandi_id,
@@ -194,7 +268,7 @@ $(document).on('change','#mandi_mandi',function(){
 	    success:function (response) {
 	    	console.log(response);
 	    	if(response.status == 200){
-	    		var x = '<option value="0">Select Commodity</option>';
+	    		var x = '<option value="">Select Commodity</option>';
 	    		$.each(response.data,function(key,value){
 	    			x = x + '<option value="' + value.commodity_id + '">'+ value.commodity_name +'</option>';
 	    		});
@@ -250,6 +324,8 @@ function mandi_data_ajax(){
 	var mandi_mandi = 	$('#mandi_mandi').val();
 	var mandi_commodity = $('#mandi_commodity').val();
 	var page = $('#mandi_page_count').val();
+	var co_name = $('#co_name').val();
+	
 	$.ajax({
 	    type: 'POST',
 	    url: baseUrl+'Mandi_ctrl/mandi_list',
@@ -259,7 +335,8 @@ function mandi_data_ajax(){
 	    	'mandi_district' : mandi_district,
 	    	'mandi_mandi' : mandi_mandi,
 	    	'mandi_commodity' : mandi_commodity,
-	    	'page' : page
+	    	'page' : page,
+	    	'co_name' : co_name
 	    },
 	    beforeSend: function(){
                 //$('#loader').modal({'show':true});
@@ -271,7 +348,7 @@ function mandi_data_ajax(){
 	    		mandi_data_render(response);	
 	    	}
 	    	else{
-	    		
+	    		$('#mandi_list').html('<tr><td class="panel-group text-center" role="tab" id="headingOne" colspan="6"><b>record not match.</b></td></tr>');
 	    	}
 	    }
 	});
@@ -290,8 +367,9 @@ function mandi_data_render(response){
     	var divided = parseInt(response.count[0].total / 10);
     	var pages = parseInt(divided + reminder);
     	var pages_dropdown = '';
+    	var a = 1;
     	for(var i = 0; i < pages; i++){
-    		pages_dropdown = pages_dropdown + '<option value="'+ parseInt(i+1) +'">'+ i +'</option>';
+    		pages_dropdown = pages_dropdown + '<option value="'+ parseInt(i+1) +'">'+ parseInt(parseInt(i) + parseInt(a)) +'</option>';
     	}
     	$('#mandi_page_count').html(pages_dropdown);
     	if(typeof(response.page) != "undefined" && response.page !== null) {
@@ -331,6 +409,7 @@ function mandi_data_render(response){
 		$('#mandi_list').html(y);
 	}
 	else{
+		$('#mandi_list').html('<tr><td class="panel-group text-center" role="tab" id="headingOne" colspan="6"><b>record not match.</b></td></tr>');
 	}
 }
 </script>

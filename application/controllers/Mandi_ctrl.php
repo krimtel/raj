@@ -75,6 +75,11 @@ class Mandi_ctrl extends CI_Controller {
 		$mandi_district = $this->input->post('mandi_district');
 		$mandi_mandi = $this->input->post('mandi_mandi');
 		$mandi_commodity = $this->input->post('mandi_commodity');
+		
+		$commodity_input = $this->input->post('co_name');
+		if($commodity_input != ''){
+		    $this->AllCommodity();
+		}else{
 		$page = $this->input->post('page');
 		if($page != 0){
 			$page = ($page-1) * 10;
@@ -137,6 +142,7 @@ class Mandi_ctrl extends CI_Controller {
 			echo json_encode(array('status'=>500));
 		}
 	}
+}//end of else condition...
 	
 	function commodity_list(){
 		$mandi_id = $this->input->post('mandi_id');
@@ -150,4 +156,40 @@ class Mandi_ctrl extends CI_Controller {
 		}
 		
 	}
+	
+	public function AllCommodity(){
+	    $commodity = $this->input->post('co_name');
+	    
+	    $page = $this->input->post('page');
+	    if($page != 0){
+	        $page = ($page-1) * 10;
+	    }
+	    //------------total count of records-----------------------------------------------
+	    $this->db->select('co.c_id as id, co.commodity_name as commodity_name,ma.mandi_id as mandi_id, ma.mandi_name as mandi_name, ma.address as address, ma.contact as contact, ma.district_name as district_name, st.state_name as state_name, st.state_id as state_id');
+	    $this->db->from('commodity co');
+	    $this->db->join('mandis ma','ma.mandi_id=co.mandi_id','inner');
+	    $this->db->join('states st','st.state_code=ma.state_code','inner');
+	    $this->db->like('co.commodity_name', $commodity);
+	    $this->db->where('co.status', 1);
+	    $result_count = $this->db->get()->result_array();
+	     
+	    //----------pagination query------------------------------------------------------
+	    $this->db->select('co.c_id as id, co.commodity_name as commodity_name,ma.mandi_id as mandi_id, ma.mandi_name as mandi_name, ma.address as address, ma.contact as contact, ma.district_name as district_name, st.state_name as state_name, st.state_id as state_id');
+	    $this->db->from('commodity co');
+	    $this->db->limit('10', $page);
+	    $this->db->join('mandis ma','ma.mandi_id=co.mandi_id','inner');
+	    $this->db->join('states st','st.state_code=ma.state_code','inner');	   
+	    $this->db->like('co.commodity_name', $commodity);
+	    $this->db->where('co.status', 1);
+	    $result = $this->db->get()->result_array();
+   
+	    $count[0]['total'] = count($result_count);
+	    if(count($result) > 0 ){
+	        echo json_encode(array('data2'=>$result,'count'=>$count,'page'=>$this->input->post('page'),'status'=>200));
+	    }else{
+	        echo json_encode(array('status'=>500));
+	    }
+	}
+	
+	
 }
