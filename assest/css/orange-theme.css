@@ -1,0 +1,42 @@
+/*orange theme*/
+.orange-theme .header-section{background-color:#E66100;}
+.orange-theme .navigation li a.active{background-color:#E66100;color:#fff;}
+.orange-theme .navigation li a:hover{background-color:#E66100;color:#fff;}
+.orange-theme .home-q .quick-link-list{border-top:0px solid #E66100;}
+/*.orange-theme .quick-link-list{border-top:5px solid #E66100;}
+.orange-theme .commodity-list{border-top:5px solid #E66100;}*/
+.orange-theme .thumbnails .span3 .caption h4 {background-color: #E66100;}
+.orange-theme .home-n .sidebar-header-title{border-bottom:0px solid #E66100;}
+.orange-theme .sidebar-header-title{border-bottom:5px solid #E66100;}
+.orange-theme .natinal-agricul-market .header-title{border-bottom:5px solid #E66100;}
+.orange-theme .language-bg-color{background-color: #d65c03;}
+.orange-theme .natinal-agricul-market table thead{background-color: #E66100;color:#fff;}
+.orange-theme .commodity-graph-section .header-title{color:#E66100;}
+
+.orange-theme .quick-img1{background-image:url('quick-link/orange/quick1.png');}
+.orange-theme .quick-img2{background-image:url('quick-link/orange/quick2.png');}
+.orange-theme .quick-img3{background-image:url('quick-link/orange/quick3.png');}
+.orange-theme .quick-img4{background-image:url('quick-link/orange/quick4.png');}
+.orange-theme .quick-img5{background-image:url('quick-link/orange/quick5.png');}
+.orange-theme .quick-img6{background-image:url('quick-link/orange/quick6.png');}
+.orange-theme .quick-img7{background-image:url('quick-link/orange/quick7.png');}
+.orange-theme .quick-img8{background-image:url('quick-link/orange/quick8.png');background-repeat: no-repeat;}
+.orange-theme .quick-img9{background-image:url('quick-link/orange/quick9.png');}
+.orange-theme .quick-img10{background-image:url('quick-link/orange/quick10.png');}
+.orange-theme .quick-img11{background-image:url('quick-link/orange/quick11.png');}
+.orange-theme .quick-img12{background-image:url('quick-link/orange/quick12.png');}
+.orange-theme .quick-img13{background-image:url('quick-link/orange/quick13.png');}
+
+
+/*new css*/
+.orange-theme .navbar-toggle{background-color:#E66100;}
+.orange-theme .register-icon{background-image:url('quick-link/orange/register-ico.png');}
+.orange-theme .login-icon{background-image:url('quick-link/orange/login-ico.png');}
+/*.orange-theme .help-line .number{color:#E66100;}*/
+.orange-theme .header-right-list a{color:#E66100;}
+.orange-theme .header-right-list a:hover{color:#E66100;}
+.orange-theme .font-size-change a{color:#E66100;}
+.orange-theme .lang-box select {background-color: #E66100;}
+.orange-theme .events-title{    border-bottom: 2px solid #E66100;}
+.orange-theme .events-title span{background-color: #E66100;}
+.orange-theme .enam-events-box p.p-date{color:#E66100 !important;;}

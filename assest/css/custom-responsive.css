@@ -1,0 +1,41 @@
+@media (max-width: 360px) {
+.india-logo img{width:50%;}
+}
+
+@media (min-width: 360px) {
+.india-logo img{width:50%;}
+}
+
+
+@media (min-width: 480px) {
+.india-logo img{width:50%;}
+.nav>li>a{padding:10px 12px;}
+}
+
+@media (min-width: 768px) {
+.india-logo img{width:50%;}
+.nav>li>a{padding:10px 12px;}
+}
+@media (min-width: 992px) {
+.india-logo img{width:50%;}
+.nav>li>a{padding:10px 12px;}
+}
+@media (min-width: 1200px) {
+.india-logo img{width:50%;}
+.nav>li>a{padding:10px 18px;}
+}
+
+@media (min-width: 1400px) {
+.india-logo img{width:auto;}
+.nav>li>a{padding:10px 20px;}
+}
+
+@media (min-width: 1600px) {
+.india-logo img{width:auto;}
+.nav>li>a{padding:10px 16px;}
+}
+
+@media (min-width: 1900px) {
+.india-logo img{width:auto;}
+.nav>li>a{padding:10px 16px;}
+}

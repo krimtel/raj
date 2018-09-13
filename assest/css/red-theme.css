@@ -1,0 +1,39 @@
+/*red theme*/
+.red-theme .header-section{background-color:#b45834;}
+.red-theme .navigation li a.active{background-color:#b45834;color:#fff;}
+.red-theme .navigation li a:hover{background-color:#b45834;color:#fff;}
+.red-theme .home-q .quick-link-list{border-top:0px solid #b45834;}
+
+.red-theme .thumbnails .span3 .caption h4 {background-color: #b45834;}
+.red-theme .home-n .sidebar-header-title{    border-bottom: 0px solid #b45834;}
+
+.red-theme .language-bg-color{background-color: #954729;}
+.red-theme .natinal-agricul-market table thead{background-color: #b45834;color:#fff;}
+.red-theme .commodity-graph-section .header-title{color:#b45834;}
+
+.red-theme .quick-img1{background-image:url('quick-link/red/quick1.png');}
+.red-theme .quick-img2{background-image:url('quick-link/red/quick2.png');}
+.red-theme .quick-img3{background-image:url('quick-link/red/quick3.png');}
+.red-theme .quick-img4{background-image:url('quick-link/red/quick4.png');}
+.red-theme .quick-img5{background-image:url('quick-link/red/quick5.png');}
+.red-theme .quick-img6{background-image:url('quick-link/red/quick6.png');}
+.red-theme .quick-img7{background-image:url('quick-link/red/quick7.png');}
+.red-theme .quick-img8{background-image:url('quick-link/red/quick8.png');background-repeat: no-repeat;}
+.red-theme .quick-img9{background-image:url('quick-link/red/quick9.png');}
+.red-theme .quick-img10{background-image:url('quick-link/red/quick10.png');}
+.red-theme .quick-img11{background-image:url('quick-link/red/quick11.png');}
+.red-theme .quick-img12{background-image:url('quick-link/red/quick12.png');}
+.red-theme .quick-img13{background-image:url('quick-link/red/quick13.png');}
+
+/*new css*/
+.red-theme .navbar-toggle{background-color:#b45834;}
+.red-theme .register-icon{background-image:url('quick-link/red/register-ico.png');}
+.red-theme .login-icon{background-image:url('quick-link/red/login-ico.png');}
+/*.red-theme .help-line .number{color:#b45834;}*/
+.red-theme .header-right-list a{color:#b45834;}
+.red-theme .header-right-list a:hover{color:#b45834;}
+.red-theme .font-size-change a{color:#b45834;}
+.red-theme .lang-box select {background-color: #b45834;}
+.red-theme .events-title{    border-bottom: 2px solid #b45834;}
+.red-theme .events-title span{background-color: #b45834;}
+.red-theme .enam-events-box p.p-date{color:#b45834 !important;;}
