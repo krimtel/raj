@@ -279,9 +279,9 @@ $(document).on('click','.play-img',function(){
  						$.each(response.data,function(key,value){
  							x = x + '<div class="col-md-2">'+
 										'<div class="comodity-pro-box">'+
-											'<h4>'+ value.comm_name +'</h4>'+
-											'<img alt="" src="'+ baseUrl +'/assest/images/commodity-pro/'+ value.comm_image +'">'+ 
-											'<a class="commodity_modal" data-id="'+ value.comm_id +'" href="javascript:void(0);"> View Quality Parameters</a>'+
+											'<h4>'+ value.commodity_name +'</h4>'+
+											'<img alt="" src="'+ baseUrl +'/assest/images/commodity-pro/'+ value.image +'">'+ 
+											'<a class="commodity_modal" data-id="'+ value.commodity_id +'" href="javascript:void(0);"> View Quality Parameters</a>'+
 										'</div>'+
 									'</div>';
  						});	
