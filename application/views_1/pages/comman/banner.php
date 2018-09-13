@@ -1,1 +1,0 @@
-<img src="<?php echo base_url(); ?>assest/images/img1.png" alt="" />
