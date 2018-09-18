@@ -211,7 +211,7 @@
 					<tbody>
 						<?php if(isset($events) && (count($events) > 0)){ 
 								foreach($events as $event) { ?>
-								<?php if($event['lang_id'] == $this->session->userdata('language')) { ?>
+								<?php if($event['lang_id'] == ($this->session->userdata('language'))) { ?>
 								<tr>
 									<td><img width="90" src="<?php echo base_url()."Event_gallary/".$event['event_image']; ?>"></td>
 									<td><?php echo substr($event['title'],0,100); ?></td>

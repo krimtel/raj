@@ -5,7 +5,7 @@
 	<div class="container-fuild" style="padding-left:4%;padding-right:4%;">
 		<div class="row">
 <div class="col-sm-3 video-sec wow fadeInLeft" data-wow-delay="0.5s" style="width:21%;" >
-			<div class="sidebar-header-title"><span class="e-text"><?php echo $this->lang->line('enam');?> <?php echo $this->lang->line('elearningvideos');?></span></div>
+			<div class="sidebar-header-title"><span class="e-text"><?php echo $this->lang_file->heading_fetch('eNAM');?> <?php echo $this->lang_file->heading_fetch('elearningvideos');?></span></div>
 			<div class="row">
 			<?php if(isset($videos) && count($videos)>0){?>
 				<?php $c = 1; foreach($videos as $video){ ?>

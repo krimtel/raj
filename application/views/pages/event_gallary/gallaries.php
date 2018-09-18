@@ -96,7 +96,6 @@
 	</div>
 </section> 
 
- 
 <section class="content-section o-content-sec">
 	<div class="container-fuild" style="padding-left:4%;padding-right:4%;">
 		<div class="row">
@@ -109,58 +108,39 @@
 					echo '<h5><span>All Events</span>';
 				}
 				?>
-					<div class="pull-right search-btn">
-						<input placeholder="Search Events..." type="text" id="event_search_gallery" /><i class="fa fa-search"></i>
-						<select class="pull-left form-control" style="width:200px;" id="event_category_selector">
+					<div class="pull-right">
+						<input class="pull-left form-control" placeholder="Search Events..." type="text" id="event_search_gallery"/>
+					</div>
+					<div class="pull-right">
+						<select class="pull-left form-control" id="event_category_selector">
 								<?php $cat= $this->uri->segment(2);
 								if(isset($cat) && $cat != ''){ ?>
 								    <option value="All">All Events</option>
-								   <?php foreach($events_categories as $events_category){ ?>
-								   <option value="<?php echo $events_category['event_category'];?>"<?php if($events_category['event_category']==$cat){echo"Selected";}?>><?php echo ucfirst($events_category['event_category']);?> </option>
-								<?php } }else{ ?>
-								
+								    
+								   <?php foreach($events_categories as $events_category){
+								   if($events_category['event_category'] != ''){ ?>
+								   <option value="<?php echo $events_category['event_category'];?>"<?php if($events_category['event_category']==$cat){echo "Selected"; } ?> > <?php echo ucfirst($events_category['event_category']); ?> </option>
+								<?php } }
+								}else{ ?>
 								<option value="All">All Events</option>
 								<?php if(count($events_categories)>0){ ?>
 									<?php foreach($events_categories as $events_category){
 										if($events_category['event_category'] != ''){ ?>
 										<option value="<?php echo $events_category['event_category'];?>"><?php echo ucfirst($events_category['event_category']);?></option>
-										
-									<?php } } ?>
-								<?php } }?>
-							
+									<?php
+                                     }
+								} 
+							}
+						}  ?>
 						</select>
 					</div>
-				</h5>
 				
-				<!--<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="item active">
-							<?php //if((count($events) > 0) && (isset($events))){ ?>
-							<?php //$c=1; foreach($events as $event){
-							//if($c < 5){
-								//$event_title = strlen($event['title']) > 50 ? substr($event['title'],0,50)."..." : $event['title'];
-							?>
-							<div class="col-md-3 events-de">
-								<img id="myImg" style="width:100%;" alt="<?php //echo $event['title']; ?>" src="<?php //echo base_url(); ?>/Event_gallary/<?php //echo $event['event_image']; ?>" />
-								<div class="register-user-box">
-									<h5><?php //echo $event_title; ?></h5>
-									<?php //echo $event['event_content'];?>
-								</div>
-							</div>
-						<?php //$c++; } } ?>
-						<?php //} else { ?>
-							<div class="well text-danger">No Events Found.</div>
-						<?php //}?>
-				  	</div>
-				</div> -->
-				
-			
-			
+				<br/><br/><br/>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner"> 
 						<?php
-						
 						$c = count($events);
+						
 						$event_seq = 0;
 						for($i = 0 ; $i <= $c ; $i = $i+4){
 							if($i == 0){
@@ -236,8 +216,6 @@
 			
 				<script>
 				var base =	$('#base_url').val();
-				
-					
 				</script>				
 			</div>
 		</div>

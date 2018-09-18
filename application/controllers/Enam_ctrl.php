@@ -8,7 +8,7 @@ class Enam_ctrl extends CI_Controller {
 		$this->load->helper(array('url','file'));
 		$this->load->database();
 		$this->load->model(array('admin/Language_model','admin/Users_model','admin/Video_model','admin/Slider_model','admin/Widget_model','admin/Menu_model','Enam_model','admin/Event_model'));
-		$this->load->library(array('session','substring'));
+		$this->load->library(array('session','substring','lang_file'));
 		if(!$this->session->userdata('client_language')){
 			$newdata = array(
 					'client_language'  => '1',
